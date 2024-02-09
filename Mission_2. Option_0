@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission_2. Option_0.</title>
+</head>
+<body>
+    <form action="Cars">
+        <h1>Выберите марку(и) автомобиля:</h1>
+
+        <label><input type="checkbox">BMW</label>
+
+        <label><input type="checkbox">Mercedes</label>
+
+        <label><input type="checkbox">Audi</label>
+
+        <label><input type="checkbox">Honda</label>
+
+        <label><input type="checkbox">UAZ</label>
+
+        <label><input type="checkbox">Lamborgini</label>
+
+        <label><input type="checkbox">Другое</label>
+        
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
