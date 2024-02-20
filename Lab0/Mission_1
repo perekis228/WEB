@@ -1,9 +1,9 @@
-<!DOCTYPE html> <!— Добавил тег <!DOCTYPE> —>
-<html lang="ru"> <!— Добавил тег <html> —>
-<head> <!— Добавил тег <head> —>
-    <meta charset="utf-8"> <!— Добавил тег <meta> —>
+<!DOCTYPE html> <!-- Добавил тег <!DOCTYPE> -->
+<html lang="ru"> <!-- Добавил тег <html> -->
+<head> <!-- Добавил тег <head> -->
+    <meta charset="utf-8"> <!-- Добавил тег <meta> -->
 </head>
-<body> <!— Добавил тег <body> —>
+<body> <!-- Добавил тег <body> -->
     <header>Узнай на все 100 %!</header>
         <section>
             <h1>Языки программирования</h1>
