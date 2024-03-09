@@ -2,4 +2,12 @@
 $st = pow(2,10);
 
 $kor = sqrt(245);
+
+$array = [4, 2, 5, 19, 13, 0, 10];
+$res = 0;
+foreach($array as $value)
+{
+    $res += pow($value,2);
+}
+$res = sqrt($res);
 ?>
