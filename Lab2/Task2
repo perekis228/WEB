@@ -5,4 +5,7 @@ echo "\n";
 
 $num2 = 2.2;
 echo "$num2\n";
+
+$num3 = 11;
+echo $num1 + $num3."\n";
 ?>
