@@ -1,0 +1,10 @@
+<?php
+$num = 30;
+$arrDel = [];
+
+for($i=1; $i<=$num/2; $i++)
+{
+    if($num % $i == 0) array_push($arrDel, $i);
+}
+array_push($arrDel, $num);
+?>
