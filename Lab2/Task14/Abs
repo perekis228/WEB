@@ -8,4 +8,12 @@ echo abs($a-$b)."\n";
 $a = 23;
 $b = -17;
 echo abs($a-$b)."\n";
+
+$array = [1, 2, -1, -2, 3, -3];
+$absArray = [];
+$length = count($array);
+for ($i=0; $i<$length; $i++)
+{
+    $absArray[$i] = abs($array[$i]);
+}
 ?>
