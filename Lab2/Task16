@@ -5,4 +5,9 @@ function increaseEnthusiasm($str)
 }
 
 echo increaseEnthusiasm("Hello")."\n";
+
+function repeatThreeTimes($str)
+{
+    return $str.$str.$str;
+}
 ?>
