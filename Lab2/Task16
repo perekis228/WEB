@@ -10,4 +10,6 @@ function repeatThreeTimes($str)
 {
     return $str.$str.$str;
 }
+
+echo repeatThreeTimes("Hi ")."\n";
 ?>
