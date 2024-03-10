@@ -4,4 +4,6 @@ function printStringReturnNumber()
     echo "Hello ";
     return 10;
 }
+$my_num = printStringReturnNumber();
+echo $my_num;
 ?>
