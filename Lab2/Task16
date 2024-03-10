@@ -14,4 +14,9 @@ function repeatThreeTimes($str)
 echo repeatThreeTimes("Hi ")."\n";
 
 echo increaseEnthusiasm(repeatThreeTimes("Go "))."\n";
+
+function cut($str, $count = 10)
+{
+    return substr($str, 0, $count);
+}
 ?>
