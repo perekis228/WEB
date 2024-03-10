@@ -19,4 +19,16 @@ function cut($str, $count = 10)
 {
     return substr($str, 0, $count);
 }
+
+$array = [1,2,3,4,5,6,7,8,9,10];
+function printArr($array, $curPos)
+{
+    $length = count($array);
+    if($curPos < $length) 
+    {
+        echo $array[$curPos]."\n";
+        printArr($array, $curPos+1);
+    }
+}
+printArr($array, 0);
 ?>
