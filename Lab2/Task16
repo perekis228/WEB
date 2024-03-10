@@ -12,4 +12,6 @@ function repeatThreeTimes($str)
 }
 
 echo repeatThreeTimes("Hi ")."\n";
+
+echo increaseEnthusiasm(repeatThreeTimes("Go "))."\n";
 ?>
