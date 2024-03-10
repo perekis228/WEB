@@ -3,4 +3,6 @@ function increaseEnthusiasm($str)
 {
     return $str.="!";
 }
+
+echo increaseEnthusiasm("Hello")."\n";
 ?>
