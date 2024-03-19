@@ -15,4 +15,17 @@ function equal($num1, $num2)
 
 $test = 0;
 if ($test == 0) echo 'верно'."\n";
+
+$age = 29;
+if($age<10 or $age>99)
+{
+    echo "Число меньше 10 или больше 99";
+}
+else
+{
+    $sum = $age%10 + ($age/10)%10;
+    if($sum<=9): echo "Сумма цифр однозначна";
+    else: echo "Сумма цифр двузначна";
+    endif;
+}
 ?>
