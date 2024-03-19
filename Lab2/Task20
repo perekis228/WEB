@@ -9,4 +9,7 @@ echo $sum."\n";
 $array2 = [1, 4, 9, 16, 25];
 $square = array_map('sqrt', $array2);
 echo json_encode($square)."\n";
+
+$alphabet = array_combine(range('a', 'z'), range(1, 26));
+echo json_encode($alphabet)."\n";
 ?>
