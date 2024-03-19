@@ -1,24 +1,20 @@
 <?php
 $array = [];
-for($i = 1; $i<5; $i++)
-{
+for($i = 1; $i < 5; $i++){
     $array[] = str_repeat('x', $i);
 }
 
-function arrayFill($str, $count)
-{
+function arrayFill($str, $count){
 $array = [];
-for($i=0; $i<$count; $i++) array_push($array, $str);
+for($i = 0; $i < $count; $i++) array_push($array, $str);
 return $array;
 }
 $array2 = arrayFill('x',5);
 
 $array3 = [[1, 2, 3], [4, 5], [6]];
-function arraySum($array)
-{
+function arraySum($array){
 $sum = array_sum($array);
-foreach($array as $subArray) 
-    {
+foreach($array as $subArray) {
     $sum += is_array($subArray) ? arraySum($subArray) : 0;
     }
 return $sum;
@@ -27,18 +23,16 @@ echo arraySum($array3)."\n";
 
 $array4 = [];
 $count = 1;
-for($i=0; $i<3; $i++)
-{
-$subArray = [];
-for($j=0; $j<3; $j++)
-    {
-    array_push($subArray, $count++);
-    }
-array_push($array4, $subArray);
+for($i = 0; $i < 3; $i++){
+    $subArray = [];
+    for($j = 0; $j < 3; $j++){
+        array_push($subArray, $count++);
+        }
+    array_push($array4, $subArray);
 }
 
 $array5 = [2, 5, 3, 9];
-$result = $array5[0]*$array5[1] + $array5[2]*$array5[3];
+$result = $array5[0] * $array5[1] + $array5[2] * $array5[3];
 echo $result."\n";
 
 $user = ['name' => 'Bill', 'surname' => 'Gates', 'patronymic' => 'Olegovich'];
