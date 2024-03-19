@@ -36,4 +36,8 @@ for($j=0; $j<3; $j++)
     }
 array_push($array4, $subArray);
 }
+
+$array5 = [2, 5, 3, 9];
+$result = $array5[0]*$array5[1] + $array5[2]*$array5[3];
+echo $result."\n";
 ?>
