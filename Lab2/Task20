@@ -12,4 +12,8 @@ echo json_encode($square)."\n";
 
 $alphabet = array_combine(range('a', 'z'), range(1, 26));
 echo json_encode($alphabet)."\n";
+
+$string = '1234567890';
+$sum2 = array_sum(str_split($string, 2));
+echo $sum2."\n";
 ?>
