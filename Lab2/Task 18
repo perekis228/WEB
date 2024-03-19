@@ -12,4 +12,7 @@ function equal($num1, $num2)
     else: return false;
     endif;
 }
+
+$test = 0;
+if ($test == 0) echo 'верно'."\n";
 ?>
