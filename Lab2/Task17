@@ -43,4 +43,7 @@ echo $result."\n";
 
 $user = ['name' => 'Bill', 'surname' => 'Gates', 'patronymic' => 'Olegovich'];
 echo $user['surname']." ".$user['name']." ".$user['patronymic']."\n";
+
+$date = ['year' => date('y'), 'month' => date('m'), 'day' => date('d')];
+echo $date['year']."-".$date['month']."-".$date['day']."\n";
 ?>
