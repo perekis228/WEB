@@ -50,4 +50,7 @@ echo $date['year']."-".$date['month']."-".$date['day']."\n";
 $arr = ['a','b','c','d','e'];
 $length = count($arr);
 echo $length."\n";
+
+echo $arr[$length-1]."\n";
+echo $arr[$length-2]."\n";
 ?>
