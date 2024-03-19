@@ -24,4 +24,16 @@ foreach($array as $subArray)
 return $sum;
 }
 echo arraySum($array3)."\n";
+
+$array4 = [];
+$count = 1;
+for($i=0; $i<3; $i++)
+{
+$subArray = [];
+for($j=0; $j<3; $j++)
+    {
+    array_push($subArray, $count++);
+    }
+array_push($array4, $subArray);
+}
 ?>
