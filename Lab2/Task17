@@ -12,4 +12,16 @@ for($i=0; $i<$count; $i++) array_push($array, $str);
 return $array;
 }
 $array2 = arrayFill('x',5);
+
+$array3 = [[1, 2, 3], [4, 5], [6]];
+function arraySum($array)
+{
+$sum = array_sum($array);
+foreach($array as $subArray) 
+    {
+    $sum += is_array($subArray) ? arraySum($subArray) : 0;
+    }
+return $sum;
+}
+echo arraySum($array3)."\n";
 ?>
