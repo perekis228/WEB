@@ -1,13 +1,11 @@
 <?php
-function increaseEnthusiasm($str)
-{
+function increaseEnthusiasm($str){
     return $str.="!";
 }
 
 echo increaseEnthusiasm("Hello")."\n";
 
-function repeatThreeTimes($str)
-{
+function repeatThreeTimes($str){
     return $str.$str.$str;
 }
 
@@ -15,17 +13,14 @@ echo repeatThreeTimes("Hi ")."\n";
 
 echo increaseEnthusiasm(repeatThreeTimes("Go "))."\n";
 
-function cut($str, $count = 10)
-{
+function cut($str, $count = 10){
     return substr($str, 0, $count);
 }
 
 $array = [1,2,3,4,5,6,7,8,9,10];
-function printArr($array, $curPos)
-{
+function printArr($array, $curPos){
     $length = count($array);
-    if($curPos < $length) 
-    {
+    if($curPos < $length){
         echo $array[$curPos]."\n";
         printArr($array, $curPos+1);
     }
@@ -34,20 +29,16 @@ printArr($array, 0);
 
 
 $num = 123456789;
-function sumOfFigures($num)
-{
-    do
-    {
+function sumOfFigures($num){
+    do{
         $num = justSum($num);
-    } while($num>9);
+    } while(9 < $num);
     return $num;
 }
-function justSum($num)
-{
+function justSum($num){
     $length = strlen((string)$num);
     $sum = 0;
-    for($i=0; $i<$length; $i++)
-    {
+    for($i = 0; $i < $length; $i++){
         $sum += $num%10;
         $num /= 10;
     }
